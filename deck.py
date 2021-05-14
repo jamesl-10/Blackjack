@@ -35,3 +35,7 @@ class deck:
   # Returns running count
   def getRunningCount(self):
     return self.__runningCount
+
+  def printDeck(self):
+    for card in self.__deckOfCards:
+      print(card.toString())

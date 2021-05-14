@@ -27,7 +27,6 @@ deckOfCards.shuffle()
 print("Welcome to Blackjack! The objective of the game is to draw cards until you get cards with values as close to 21 as possible!")
 
 while True:
-  
   # Creates hands
   user = hand()
   computer = hand()
